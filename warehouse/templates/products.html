@@ -1,0 +1,32 @@
+{% extends 'base.html' %}
+
+{% block title %}Товари{% endblock %}
+
+{% block content %}
+<h1>Список косметики на складі</h1>
+
+<table border="1">
+    <tr>
+        <th>#</th>
+        <th>Назва</th>
+        <th>Бренд</th>
+        <th>Категорія</th>
+        <th>Об'єм (мл)</th>
+        <th>Ціна</th>
+    </tr>
+    {% for p in products %}
+    <tr>
+        <td>{{ forloop.counter }}</td>
+        <td>{{ p.product_name }}</td>
+        <td>{{ p.brand }}</td>
+        <td>{{ p.category }}</td>
+        <td>{{ p.volume_ml }}</td>
+        <td>{{ p.price }}</td>
+    </tr>
+    {% empty %}
+    <tr>
+        <td colspan="6">Товарів немає</td>
+    </tr>
+    {% endfor %}
+</table>
+{% endblock %}

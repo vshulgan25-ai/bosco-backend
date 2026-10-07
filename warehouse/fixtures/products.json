@@ -1,0 +1,12 @@
+[
+  {"model": "warehouse.product", "pk": 1, "fields": {"product_name": "Шампунь", "brand": "Nivea", "category": "Догляд за волоссям", "volume_ml": 250, "price": "199.99"}},
+  {"model": "warehouse.product", "pk": 2, "fields": {"product_name": "Крем для обличчя", "brand": "L'Oreal", "category": "Догляд за обличчям", "volume_ml": 50, "price": "349.00"}},
+  {"model": "warehouse.product", "pk": 3, "fields": {"product_name": "Парфум", "brand": "Chanel", "category": "Парфумерія", "volume_ml": 100, "price": "2499.00"}},
+  {"model": "warehouse.product", "pk": 4, "fields": {"product_name": "Туш для вій", "brand": "Maybelline", "category": "Макіяж", "volume_ml": 10, "price": "259.50"}},
+  {"model": "warehouse.product", "pk": 5, "fields": {"product_name": "Помада", "brand": "MAC", "category": "Макіяж", "volume_ml": 5, "price": "699.00"}},
+  {"model": "warehouse.product", "pk": 6, "fields": {"product_name": "Гель для душу", "brand": "Dove", "category": "Догляд за тілом", "volume_ml": 400, "price": "189.00"}},
+  {"model": "warehouse.product", "pk": 7, "fields": {"product_name": "Лак для нігтів", "brand": "OPI", "category": "Манікюр", "volume_ml": 15, "price": "320.00"}},
+  {"model": "warehouse.product", "pk": 8, "fields": {"product_name": "Тонік для обличчя", "brand": "Garnier", "category": "Догляд за обличчям", "volume_ml": 200, "price": "215.00"}},
+  {"model": "warehouse.product", "pk": 9, "fields": {"product_name": "Бальзам для губ", "brand": "Carmex", "category": "Догляд за губами", "volume_ml": 10, "price": "99.00"}},
+  {"model": "warehouse.product", "pk": 10, "fields": {"product_name": "Скраб для тіла", "brand": "The Body Shop", "category": "Догляд за тілом", "volume_ml": 250, "price": "549.00"}}
+]
