@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+
+{% block title %}Додати товар{% endblock %}
+
+{% block content %}
+<h1>Новий товар</h1>
+
+<form method="post">
+    {% csrf_token %}
+
+    <p>Назва: <input type="text" name="product_name"></p>
+    <p>Бренд: <input type="text" name="brand"></p>
+    <p>Категорія: <input type="text" name="category"></p>
+    <p>Об'єм (мл): <input type="number" name="volume_ml"></p>
+    <p>Ціна: <input type="number" step="0.01" name="price"></p>
+
+    <button type="submit">Зберегти</button>
+</form>
+{% endblock %}
