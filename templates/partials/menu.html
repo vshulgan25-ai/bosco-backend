@@ -1,3 +1,5 @@
+{% load warehouse_extras %}
 <nav>
     <a href="{% url 'products' %}">Товари</a>
+    <span>Товарів у базі: {% product_count %}</span>
 </nav>
